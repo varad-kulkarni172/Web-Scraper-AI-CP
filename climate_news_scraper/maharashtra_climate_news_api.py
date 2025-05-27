@@ -1,12 +1,12 @@
 # RSS is Really Simple Syndication or Rich Siter Summary, the main  purpose is to expose RESTful API that returns the data
 # maharashtra_climate_news_rss.py
-import feedparser
-import pandas as pd
+import feedparser # fetch and extract information like links and headlines from the articles
+import pandas as pd # for data manipulation and analysis and store them in .csv files
 import time
-import re
+import re # regular expression module for pattern matching
 from datetime import datetime, timedelta
-import requests
-from bs4 import BeautifulSoup
+import requests # library to make requests
+from bs4 import BeautifulSoup # a library to parse and extract information from HTML and XML documents
 
 class MaharashtraClimateNewsRSS:
     def __init__(self):

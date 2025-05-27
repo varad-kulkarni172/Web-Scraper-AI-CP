@@ -1,5 +1,5 @@
 # main.py
-import subprocess
+import subprocess # Launching the RSS Scraper
 import sys
 import time
 
